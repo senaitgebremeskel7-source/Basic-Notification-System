@@ -63,7 +63,7 @@ Basic_Notification_System/
 #### 1. Install Python 3.12.9.
 #### 2. Clone the repository:
    ```bash
-   git clone https://github.com/senait/Basic-Notification-System.git
+   git clone https://github.com/senaitgebremeskel7-source/Basic-Notification-System.git
    cd Basic_Notification_System
 ```
 #### 3. Create a virtual environment:
