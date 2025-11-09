@@ -1,19 +1,19 @@
-from factory import NotificationFactory
-from email_service import EmailService
-from sms_service import SMSService
+from factory import NotificationFactory        # Import NotificationFactory class
+from email_service import EmailService         # Import EmailService class
+from sms_service import SMSService             # Import SMSService class
 
-if __name__ == "__main__":
-    factory = NotificationFactory()
+if __name__ == "__main__":                     # Run this part only if file is executed directly
+    factory = NotificationFactory()            # Create factory object
 
     # Register services
-    factory.register_service("email", EmailService)
-    factory.register_service("sms", SMSService)
+    factory.register_service("email", EmailService)  # Register Email service in factory
+    factory.register_service("sms", SMSService)      # Register SMS service in factory
 
     # Use services
-    email = factory.create_service("email")
-    email.send("user@example.com", "Hello from Email Service!")
+    email = factory.create_service("email")          # Create email service instance
+    email.send("user@example.com", "Hello from Email Service!")  # Send email
 
-    sms = factory.create_service("sms")
-    sms.send("+1234567890", "Hello from SMS Service!")
+    sms = factory.create_service("sms")              # Create SMS service instance
+    sms.send("+1234567890", "Hello from SMS Service!")  # Send SMS
 
-    print(" All notifications sent successfully!")
+    print(" All notifications sent successfully!")    # Print success message
