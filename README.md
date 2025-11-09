@@ -166,7 +166,7 @@ factory.register_service("new_service", NewServiceClass)
 
 MIT License © Senait.G
 ##  Author
-Rahwa Tsegay
+Senait G.
 
 📧 Email: senaitG16@gmail.com
 
