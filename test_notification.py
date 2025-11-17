@@ -4,7 +4,7 @@ from factory import NotificationFactory           # Import NotificationFactory c
 
 def test_email_service():                         # Function to test EmailService
     service = EmailService()                      # Create EmailService object
-    result = service.send("test@example.com", "Test Email")  # Simulate sending email
+    result = service.send("senaitgebremeskel7@gmail.com", "Test Email")  # Simulate sending email
     assert result is True                         # Check if send() returned True
     assert service.service_type == "EMAIL"         # Verify service type is EMAIL
 
