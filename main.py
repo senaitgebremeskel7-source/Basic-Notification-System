@@ -11,9 +11,9 @@ if __name__ == "__main__":                     # Run this part only if file is e
 
     # Use services
     email = factory.create_service("email")          # Create email service instance
-    email.send("user@example.com", "Hello from Email Service!")  # Send email
+    email.send("senaitgebremeskel7@gmail.com", "Hello from Email Service!")  # Send email
 
     sms = factory.create_service("sms")              # Create SMS service instance
-    sms.send("+1234567890", "Hello from SMS Service!")  # Send SMS
+    sms.send("+251914823112", "Hello from SMS Service!")  # Send SMS
 
     print(" All notifications sent successfully!")    # Print success message
