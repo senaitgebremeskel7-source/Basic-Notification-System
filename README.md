@@ -94,7 +94,7 @@ py main.py
 ```
 #### Output:
 ```pgsql
-Sending Email to user@example.com: Hello from Email Service!
+Sending Email to senaitgebremeskel7@gmail.com: Hello from Email Service!
 Sending SMS to +1234567890: Hello from SMS Service!
 All notifications sent successfully!
 ```
