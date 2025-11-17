@@ -10,7 +10,7 @@ def test_email_service():                         # Function to test EmailServic
 
 def test_sms_service():                           # Function to test SMSService
     service = SMSService()                        # Create SMSService object
-    result = service.send("+1234567890", "Test SMS")  # Simulate sending SMS
+    result = service.send("+251914823112", "Test SMS")  # Simulate sending SMS
     assert result is True                         # Check if send() returned True
     assert service.service_type == "SMS"           # Verify service type is SMS
 
