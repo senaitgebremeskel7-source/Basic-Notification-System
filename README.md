@@ -116,8 +116,8 @@ email = factory.create_service("email")
 sms = factory.create_service("sms")
 
 # Send notifications
-email.send("user@example.com", "Hello via Email!")
-sms.send("+1234567890", "Hello via SMS!")
+email.send("senaitgebremeskel7@gmail.com", "Hello via Email!")
+sms.send("+251914823112", "Hello via SMS!")
 ```
 ## Testing
 
@@ -139,8 +139,8 @@ py test_notification.py
 Output
 ```sql
 Running basic tests...
-Sending Email to test@example.com: Test Email
-Sending SMS to +1234567890: Test SMS
+Sending Email to senaitgebremeskel7@gmail.com: Test Email
+Sending SMS to +251914823112: Test SMS
 NotificationFactory test passed
 All tests passed successfully!
 ```
@@ -170,4 +170,4 @@ Senait G.
 
 📧 Email: senaitG16@gmail.com
 
-🌐 GitHub: github.com/senaitG
+🌐 GitHub: github.com/senaitgebremeskel7-source
